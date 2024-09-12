@@ -18,6 +18,5 @@ public class Ejercicio2_2 : MonoBehaviour
     {
         Debug.Log("vida " + vida);
         Debug.Log("exp " + exp);
-
     }
 }
