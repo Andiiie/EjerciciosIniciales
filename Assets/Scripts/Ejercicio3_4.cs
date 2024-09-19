@@ -8,6 +8,6 @@ public class Ejercicio3_4 : MonoBehaviour
     int lvl;
     void Start()
     {
-        
+        lvl = 32 + (9 *  exp / 5);
     }
 }
