@@ -10,6 +10,7 @@ public class Ejercicio4_1 : MonoBehaviour
     float radioCirculo = 2;
     float baseTriangulo = 4;
     float alturaTriangulo = 4;
+    float ladoCuadrado = 6;
     void Start()
     {
         Debug.Log(areaCirculo); 
@@ -25,11 +26,11 @@ public class Ejercicio4_1 : MonoBehaviour
     }
     void Triangulo()
     {
-
+        areaTriangulo = baseTriangulo * alturaTriangulo / 2;
     }
     void Cuadrado()
     {
-
+        areaCuadrado = ladoCuadrado * ladoCuadrado;
     }
 
 }
